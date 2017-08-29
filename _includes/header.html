@@ -1,0 +1,67 @@
+<header class="header header-top-transparent">
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 hidden-xs">
+          <ul class="list-inline">
+            <li><a href="javascript:void(0)"><i class="ion-ios-telephone"></i>+33 9 83 38 08 18</a></li>
+            <li><a href="javascript:void(0)"><i class="ion-email"></i>restaurantgalia@hotmail.com</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 text-right">
+          <ul class="list-inline level-2">
+            <li class="lang"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Lang <i class="ion-ios-arrow-down"></i></a>
+              <ul class="dropdown-menu lang-dropdown">
+                <li>
+                  <a href="javascript:void(0)"><img class="flag" src="assets/images/fr.png" alt="French">French</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default navbar-static-top sticky-header">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" ng-click="onClick()" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+        <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo-light.png" alt="logo" class="logo-default">
+                  <img src="assets/images/logo-dark.png" alt="logo" class="logo-scroll">
+              </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li {% if page.url=='/' %} class="active" {% endif %}>
+            <a href="{{ " /index.html " | prepend: site.baseurl }}">Home</a>
+          </li>
+          <li {% if page.url=='/chef.html' %} class="active" {% endif %}>
+            <a href="{{ " /chef.html " | prepend: site.baseurl }}">Maxim Godigna</a>
+          </li>
+          <li {% if page.url=='/galia.html' %} class="active" {% endif %}>
+            <a href="{{ " /galia.html " | prepend: site.baseurl }}">Galia</a>
+          </li>
+
+          <li {% if page.url=='/reservation.html' %} class="active" {% endif %}>
+            <a href="{{ " /reservation.html " | prepend: site.baseurl }}">Réservations</a>
+          </li>
+
+          <li {% if page.url=='/gallery.html' %} class="active" {% endif %}>
+            <a href="{{ " /gallery.html " | prepend: site.baseurl }}">Galerie</a>
+          </li>
+
+          <li {% if page.url=='/news.html' %} class="active" {% endif %}>
+            <a href="{{ " /news.html " | prepend: site.baseurl }}">Actualités</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
