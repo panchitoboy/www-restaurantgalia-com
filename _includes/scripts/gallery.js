@@ -1,3 +1,4 @@
+{% raw %}
 var feed = new Instafeed({
     get: 'user',
     userId: '2015090677',
@@ -20,3 +21,4 @@ var feed = new Instafeed({
     }
 });
 feed.run();
+{% endraw %}
