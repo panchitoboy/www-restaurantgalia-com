@@ -112,8 +112,11 @@ title: Home
                     grand rassemblement de chefs reconnus dans la planète.
                 </p>
                 <p>
-                    En 2017 le chef devient membre actif de l'association Euro - Toques France et s'engage à défendre les produits sains de qualité. Euro-toques France est la seule associations lobbyiste de chefs cuisiniers reconnue officiellement par la commision europénne
+                    En 2017 le chef devient membre actif de l'association Euro - Toques France et s'engage à défendre les produits sains de qualité. Euro-toques France est la seule association lobbyiste de chefs cuisiniers reconnue officiellement par la commision europénne
                     et elle bénéficie d'une présence permanente à Bruxelles au coeur du système décisionnel européen.
+                </p>
+                <p>
+                    En 2018, le titre de Maitre Restaurateur lui est attribué après les audits de contrôle qui valident ses connaissances en tant que chef cuisinier de métier. Ce titre est le seul titre délivré par l’ Etat pour la restauration française.
                 </p>
             </div>
             <div class="col-md-offset-2 col-sm-3  text-center">
