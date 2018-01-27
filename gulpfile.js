@@ -107,6 +107,7 @@ gulp.task('build:images', function () {
       {
         '*.*': [{ width: '100%', height: '100%' }],
         'galia/*.*': [{ width: 450 }],
+        'home/bg*.jpg': [{ width: 1920 }],
         'home/award*.*': [{ width: 250 , compressionLevel: 9}],
         'header/*.*': [{ width: '100%', height: '100%', quality: 40 }],
         'news/*.*': [{ width: 360 }],

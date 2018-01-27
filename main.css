@@ -13153,7 +13153,7 @@ div#preloader {
 }
 
 .award-chefs {
-  background: url("../images/bg2.jpg") no-repeat;
+  background: url("../images/home/bg2.jpg") no-repeat;
   background-position: 0 0;
   background-attachment: fixed;
   position: relative;
@@ -14191,7 +14191,7 @@ body #sticky-wrapper {
 }
 
 .cta-background {
-  background: url("../images/bg1.jpg") no-repeat;
+  background: url("../images/home/bg1.jpg") no-repeat;
   background-size: cover;
   padding: 150px 0;
   background-attachment: fixed;
