@@ -8,17 +8,8 @@
   
   {% include footer.html %}
   
-  {% include scripts.html %}
-  <script type="text/javascript">
-    $(".sticky-header").sticky({
-      topSpacing: 0
-    });
-  </script>
-  
   {% if page.script %}
-    <script type="text/javascript">
-    {% include {{page.script}} %}
-    </script>
+	  <script async type="text/javascript" src="{{ page.script | prepend: site.baseurl }}"></script> 
   {% endif %}
 </body>
 </html >

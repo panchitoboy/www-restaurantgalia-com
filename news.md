@@ -32,7 +32,7 @@ articles:
     date: 
         27/10/2015
     photo: 
-        ./assets/images/news/1.jpg
+        ./images/news/1.jpg
     text: 
         Dans la famille Godigna au Venezuela, il est de tradition d’évoluer dans le monde de la médecine. Maxim aurait du, aurait pu mais il n’a pas voulu.
   
@@ -45,7 +45,7 @@ articles:
     date: 
         27/10/2015
     photo: 
-        ./assets/images/news/2.jpg
+        ./images/news/2.jpg
     text: 
         Le restaurant GALIA a été ouvert début septembre 2015 par le chef Maxim Godigna qui a travaillé avec Jean-François Rouquette au Park Hyatt, au "Paris" de l'hôtel Lutetia avec Philippe Renard, au Buddha Bar Hôtel, et en qualité de second de Yoni Saada finaliste de Top Chef 2013.
   
@@ -58,7 +58,7 @@ articles:
     date: 
         16/01/2016
     photo: 
-        ./assets/images/news/3.jpg
+        ./images/news/3.jpg
     text: 
         Aux manettes de cette nouvelle adresse bistronomique, le chef Maxim Godigna, diplômé de Ferrandi et ancien second du top chef Yoni Saada. Une adresse bistronomique dans ce coin du 14ème, forcément, ça attire.
   
@@ -71,7 +71,7 @@ articles:
     date: 
         16/01/2016
     photo: 
-        ./assets/images/news/4.jpg
+        ./images/news/4.jpg
     text: 
         'Au bout de la rue Didot Paris 14ème, à une encablure de la station de tram du même nom, un joli couple de restaurateurs a choisi de faire son nid dans un bel endroit qu’ils ont d’ailleurs baptisé du nom de leur fille qui vient de naître : Galia.'
 
@@ -84,7 +84,7 @@ articles:
     date: 
         19/01/2016
     photo: 
-        ./assets/images/news/5.jpg
+        ./images/news/5.jpg
     text: 
         Galia est le restaurant gastronomique du jeune chef Maxim Godigna. Après avoir tenu le restaurant du chef Yoni Saada Topchef 2013, Maxim décide d'ouvrir son propre restaurant. Une cuisine qui respecte les saisons les produits et la fraîcheur.
 
@@ -97,7 +97,7 @@ articles:
     date: 
         06/02/2016
     photo: 
-        ./assets/images/news/6.jpg
+        ./images/news/6.jpg
     text: 
         Partout, des photos du chef, Maxim Godigna, et un écran qui diffuse ses rencontres avec d’autres cuisiniers. Un petit côté mégalomane, mais sinon, c’est sobre, avec une déco sud-américaine.
 ---

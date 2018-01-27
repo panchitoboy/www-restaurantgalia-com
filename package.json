@@ -1,0 +1,24 @@
+{
+  "name": "www-posadasolycanto-com",
+  "version": "1.0.0",
+  "description": "Posada Sol y Canto Web site",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "del": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-responsive": "^2.9.0",
+    "gulp-run": "^1.7.1",
+    "gulp-shell": "^0.6.5",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.6",
+    "run-sequence": "^1.1.1"
+  },
+  "scripts": {
+    "start": "gulp serve"
+  }
+}

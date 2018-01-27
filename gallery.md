@@ -1,7 +1,7 @@
 --- 
 layout: default 
 title: Galerie
-script: scripts/gallery.js
+script: gallery.js
 ---
 
 <div class="page-breadcrumb">

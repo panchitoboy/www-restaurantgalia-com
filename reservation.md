@@ -1,7 +1,7 @@
 --- 
 layout: default 
 title: Réservations
-script: scripts/reservation.js
+script: reservation.js
 ---
 
 <div class="page-breadcrumb">

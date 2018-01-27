@@ -23,11 +23,11 @@ title: Home
                 <blockquote>
                     La cuisine du chef est une fusion franco-sudaméricaine avec une carte qui change toutes les semaines en fonction de son inspiration. Tous les plats sont élaborés sur place à partir de produits bruts de qualité.
                 </blockquote>
-                <img src="assets/images/sign.png" alt="">
+                <img src="images/sign.png" alt="">
                 <div class="space-30"></div>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/combine1.png" alt="" class="img-responsive img-rounded">
+                <img src="images/combine1.png" alt="" class="img-responsive img-rounded">
             </div>
         </div>
     </div>
@@ -94,7 +94,7 @@ title: Home
         </div>
         <div class="col-md-6 text-center">
             <div class="abso-img">
-                <img src="assets/images/m1.jpg" alt="" class="img-responsive">
+                <img src="images/m1.jpg" alt="" class="img-responsive">
             </div>
         </div>
     </div>
@@ -120,13 +120,16 @@ title: Home
                 </p>
             </div>
             <div class="col-md-offset-2 col-sm-3  text-center">
-                <img src="assets/images/logo-award.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/logo-award.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3">
-                <img src="assets/images/award2.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/award2.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3 text-center">
-                <img src="assets/images/award3.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/award3.png" alt="" class="img-responsive" style="margin:0 auto;">
+            </div>
+            <div class="col-sm-3 text-center">
+                <img src="images/award4.jpg" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
         </div>
     </div>
