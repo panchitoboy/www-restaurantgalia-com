@@ -107,11 +107,11 @@ gulp.task('build:images', function () {
       {
         '*.*': [{ width: '100%', height: '100%' }],
         '*.png': [{ width: '100%', height: '100%' }],
-        'home/award*.*': [{ width: 250 }],
+        'home/award*.*': [{ width: 250 , compressionLevel: 9}],
         'header/*.*': [{ width: '100%', height: '100%', quality: 40 }],
         'news/*.*': [{ width: 360 }],
       },
-      { errorOnUnusedImage: false, progressive: true, errorOnEnlargement: false, compressionLevel: 9 }
+      { errorOnUnusedImage: false, progressive: true, errorOnEnlargement: false }
     ))
     .pipe(gulp.dest(paths.jekyllImageFiles))
     .pipe(gulp.dest(paths.siteImageFiles))
