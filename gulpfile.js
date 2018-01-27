@@ -48,7 +48,11 @@ gulp.task('build:scripts', function (cb) {
 
 gulp.task('build:scripts:main', function () {
   return gulp.src([
-    paths.appJsFiles + '/main/*.js'
+    paths.appJsFiles + '/main/jquery*.js',
+    paths.appJsFiles + '/main/bootstrap*.js',
+    paths.appJsFiles + '/main/jasny*.js',
+    paths.appJsFiles + '/main/loadCSS.js',
+    paths.appJsFiles + '/main/script.js'
   ])
     .pipe(concat(scriptsMainOutput))
     .pipe(uglify())
