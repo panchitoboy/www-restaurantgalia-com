@@ -120,16 +120,16 @@ title: Home
                 </p>
             </div>
             <div class="col-md-offset-2 col-sm-3  text-center">
-                <img src="images/logo-award.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/home/award1.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3">
-                <img src="images/award2.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/home/award2.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3 text-center">
-                <img src="images/award3.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/home/award3.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3 text-center">
-                <img src="images/award4.jpg" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/home/award4.jpg" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
         </div>
     </div>
