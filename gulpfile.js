@@ -47,9 +47,9 @@ gulp.task('build:scripts', function (cb) {
 });
 
 gulp.task('build:scripts:main', function () {
- return gulp.src([
-        paths.appJsFiles + '/main/*.js'     
-    ])
+  return gulp.src([
+    paths.appJsFiles + '/main/*.js'
+  ])
     .pipe(concat(scriptsMainOutput))
     .pipe(uglify())
     .pipe(gulp.dest(paths.jekyllDir))
@@ -59,27 +59,27 @@ gulp.task('build:scripts:main', function () {
 
 gulp.task('build:scripts:gallery', function () {
   return gulp.src([
-      paths.appJsFiles + '/gallery/*.js'     
-    ])
-     .pipe(concat(scriptsGalleryOutput))
-     .pipe(uglify())
-     .pipe(gulp.dest(paths.jekyllDir))
-     .pipe(gulp.dest(paths.siteDir))
-     .on('error', gutil.log);
- });
+    paths.appJsFiles + '/gallery/*.js'
+  ])
+    .pipe(concat(scriptsGalleryOutput))
+    .pipe(uglify())
+    .pipe(gulp.dest(paths.jekyllDir))
+    .pipe(gulp.dest(paths.siteDir))
+    .on('error', gutil.log);
+});
 
- gulp.task('build:scripts:reservation', function () {
+gulp.task('build:scripts:reservation', function () {
   return gulp.src([
-      paths.appJsFiles + '/reservation/*.js'     
-    ])
-     .pipe(concat(scriptsReservationOutput))
-     .pipe(uglify())
-     .pipe(gulp.dest(paths.jekyllDir))
-     .pipe(gulp.dest(paths.siteDir))
-     .on('error', gutil.log);
- });
+    paths.appJsFiles + '/reservation/*.js'
+  ])
+    .pipe(concat(scriptsReservationOutput))
+    .pipe(uglify())
+    .pipe(gulp.dest(paths.jekyllDir))
+    .pipe(gulp.dest(paths.siteDir))
+    .on('error', gutil.log);
+});
 
- gulp.task('clean:scripts', function (cb) {
+gulp.task('clean:scripts', function (cb) {
   runSequence('clean:scripts:main', 'clean:scripts:gallery', 'clean:scripts:reservation', cb);
 });
 
@@ -111,7 +111,7 @@ gulp.task('build:images', function () {
         'header/*.*': [{ width: '100%', height: '100%', quality: 40 }],
         'news/*.*': [{ width: 360 }],
       },
-      { errorOnUnusedImage: false, progressive: true , errorOnEnlargement: false }
+      { errorOnUnusedImage: false, progressive: true, errorOnEnlargement: false, compressionLevel: 9 }
     ))
     .pipe(gulp.dest(paths.jekyllImageFiles))
     .pipe(gulp.dest(paths.siteImageFiles))
