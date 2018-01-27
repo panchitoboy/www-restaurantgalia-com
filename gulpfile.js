@@ -106,6 +106,7 @@ gulp.task('build:images', function () {
     .pipe(responsive(
       {
         '*.*': [{ width: '100%', height: '100%' }],
+        'bg.jpg': [{ height: 350 }],
         'galia/*.*': [{ width: 450 }],
         'home/bg*.jpg': [{ width: 1920 }],
         'home/award*.*': [{ width: 250 , compressionLevel: 9}],
