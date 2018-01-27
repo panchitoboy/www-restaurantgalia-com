@@ -19,7 +19,7 @@ title: Galia
     </div>
     <div class="row">
         <div class="col-md-6">
-            <img src="/images/galia1.jpg" alt="" class="img-responsive center-img img-rounded">
+            <img src="/images/galia/galia1.jpg" alt="" class="img-responsive center-img img-rounded">
             <div class="space-30"></div>
         </div>
         <div class="col-md-6">
@@ -35,7 +35,7 @@ title: Galia
     </div>
     <div class="row">
         <div class="col-md-6 col-md-push-6">
-            <img src="/images/galia2.jpg" alt="" class="img-responsive center-img img-rounded">
+            <img src="/images/galia/galia2.jpg" alt="" class="img-responsive center-img img-rounded">
             <div class="space-30"></div>
         </div>
         <div class="col-md-6 col-md-pull-6">
