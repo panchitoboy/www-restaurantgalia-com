@@ -23,11 +23,11 @@ title: Home
                 <blockquote>
                     La cuisine du chef est une fusion franco-sudaméricaine avec une carte qui change toutes les semaines en fonction de son inspiration. Tous les plats sont élaborés sur place à partir de produits bruts de qualité.
                 </blockquote>
-                <img src="images/sign.png" alt="">
+                <img src="images/home/sign.png" alt="">
                 <div class="space-30"></div>
             </div>
             <div class="col-md-6">
-                <img src="images/combine1.png" alt="" class="img-responsive img-rounded">
+                <img src="images/chef-min.jpg" alt="" class="img-responsive img-rounded">
             </div>
         </div>
     </div>
@@ -94,7 +94,7 @@ title: Home
         </div>
         <div class="col-md-6 text-center">
             <div class="abso-img">
-                <img src="images/m1.jpg" alt="" class="img-responsive">
+                <img src="images/home/1.jpg" alt="" class="img-responsive">
             </div>
         </div>
     </div>
