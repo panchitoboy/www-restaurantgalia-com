@@ -1,31 +1,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<!-- Author -->
-	{% if page.author %}
-	<meta name="author" content="{{ page.author }}"> {% endif %}
-
 	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Keywords -->
-	{% if page.tags and page.tags.size > 0 %}
-	<meta name="keywords" content="{{ page.tags | join:', ' }}"> {% endif %}
-	<meta name="google-site-verification" content="9HSQkZEIOBsYSEsneAYXssNYVzuEiq7poVmS_6mlUm0" />
-
-	<!-- Title -->
-	{% if page.title %}
-	<title>{{ page.title }}</title>
-	{% else %}
-	<title>{{ site.title }}</title>
-	{% endif %}
-	<!-- Description -->
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<!-- Canonical -->
-	{% if page.canonical == nil %}
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> {% else %}
-	<link rel="canonical" href="{{ page.canonical }}" /> {% endif %}
 
 	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700" >
 	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900" >

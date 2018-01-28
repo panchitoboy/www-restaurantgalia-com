@@ -1,5 +1,6 @@
 url: "http://restaurantgalia.com/"
 baseurl: ''
+google_site_verification: 9HSQkZEIOBsYSEsneAYXssNYVzuEiq7poVmS_6mlUm0
 title: Restaurant Galia
 author: Maxim Godigna
 description: > 
@@ -8,6 +9,14 @@ description: >
    123 rue Didot dans le 14ème (face au bâtiment de la Croix-Rouge française).
 email: restaurantgalia@hotmail.com
 timezone: Europe/Paris
+lang: fr_FR
+logo: /images/header/logo-dark.png
+social:
+  name: Restaurant Galia
+  links:
+    - https://www.facebook.com/RestaurantGalia/
+    - https://www.instagram.com/godigna_chef/
+
 keep_files: []
 exclude:
   - _app
