@@ -1,11 +1,11 @@
 --- 
 layout: default 
-title: Home 
+title: GALIA par Maxim Godigna
 ---
 
 <div id="title" class="page-breadcrumb">
     <div class="container text-center">
-        <h1>Bienvenue</h1>
+        <h1>GALIA par Maxim Godigna</h1>
     </div>
 </div>
 <div class="space-40"></div>
