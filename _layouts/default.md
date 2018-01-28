@@ -7,6 +7,12 @@
   {{ content }} 
   
   {% include footer.html %}
+	
+  <script>
+    $(".sticky-header").sticky({
+     topSpacing: 0
+    });
+  </script> 
   
   {% if page.script %}
 	  <script async type="text/javascript" src="{{ page.script | prepend: site.baseurl }}"></script> 
