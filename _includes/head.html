@@ -16,7 +16,7 @@
 	</noscript>
 
 	<!-- Main javascript -->
-	<script async type="text/javascript" src="{{ '/main.js' | prepend: site.baseurl }}"></script> 
+	<script async type="text/javascript" src="{{ '/main.js' | prepend: site.baseurl }}" onload="$('.sticky-header').sticky({topSpacing: 0});"></script> 
 	
 	{% if site.development != true %}
 	<!-- Global site tag (gtag.js) - Google Analytics -->

@@ -7,7 +7,7 @@
   {{ content }} 
   
   {% include footer.html %}
-  
+
   {% if page.script %}
 	  <script async type="text/javascript" src="{{ page.script | prepend: site.baseurl }}"></script> 
   {% endif %}
