@@ -56,12 +56,6 @@ title: GALIA par Maxim Godigna
             <ul class="list-unstyled">
                 <li class="menu-box clearfix margin-b-20">
                     <div class="menu-content">
-                        <h4>Menu à la carte<span>31€</span></h4>
-                        <p>Entrée, Plat ou Plat, Dessert (les midis et soirs du mardi au dimanche)</p>
-                    </div>
-                </li>
-                <li class="menu-box clearfix margin-b-20">
-                    <div class="menu-content">
                         <h4>Menu à la carte<span>36€</span></h4>
                         <p>Entrée, Plat, Dessert (les midis et soirs du mardi au dimanche)</p>
                     </div>
