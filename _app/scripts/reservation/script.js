@@ -1,6 +1,13 @@
 $('.datepicker').datepicker({
     startDate: '0',
-    autoclose: true
+    autoclose: true,
+    beforeShowDay: function (day) {
+        if (day.getDay() === 1) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 });
 
 $('.clockpicker').clockpicker({
@@ -23,7 +30,7 @@ var options = {
             required: true
         },
         email: {
-            email:true,
+            email: true,
             required: true
         },
         time: {
@@ -40,16 +47,16 @@ var options = {
             required: true
         }
     },
-    errorElement : "span",
-    errorClass   : "error text-danger",
+    errorElement: "span",
+    errorClass: "error text-danger",
     errorPlacement: function (error, element) {
         var name = $(element).attr("name");
         error.appendTo($("#" + name + "_validate"));
     },
-    submitHandler: function(form,event) {
+    submitHandler: function (form, event) {
         event.preventDefault();
         $("#submitButton").hide();
-        var data = $('form').serializeArray().reduce(function(result,value){
+        var data = $('form').serializeArray().reduce(function (result, value) {
             result[value.name] = value.value;
             return result;
         }, {});
