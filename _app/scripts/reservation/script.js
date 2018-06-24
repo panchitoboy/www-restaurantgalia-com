@@ -2,6 +2,12 @@ $('.datepicker').datepicker({
     startDate: '0',
     autoclose: true,
     beforeShowDay: function (day) {
+       var start = new Date('2018-06-29'); 
+       var end = new Date('2018-08-09'); 
+        if(day > start && end > day){
+            return false;
+        }
+
         if (day.getDay() === 1) {
             return false;
         } else {
