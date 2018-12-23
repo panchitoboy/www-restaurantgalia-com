@@ -16,7 +16,7 @@ script: reservation.js
             <div class="margin-b-40">
                 <h2 class="text-uppercase text-center">Horaires</h2>
                 <p style="text-align: justify;">
-                    Nous vous informons que nous acceptons des réservations à partir de 12h et jusqu' à 14h pour le service du midi et à partir de 19h et jusqu' à 22h pour le service du soir. Nous vous rappelons que le restaurant est fermé les dimanches soir et les lundis.
+                    Nous vous informons que nous acceptons des réservations à partir de 12h et jusqu' à 14h pour le service du midi et à partir de 19h et jusqu' à 22h pour le service du soir. Nous vous rappelons que le restaurant est fermé les dimanches soir et les lundis. Exceptionnellement le restaurant sera ouvert lundi 31 Décembre pour le service du soir.
                 </p>
             </div>
             <form  name="form" class="reservation-form" id="reservation-form">
