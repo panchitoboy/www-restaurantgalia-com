@@ -4,7 +4,7 @@
     newYear.setHours(0, 0, 0, 0);
     cloneDate.setHours(0, 0, 0, 0);
 
-    if (day.getDay() === 1 && newYear.getMilliseconds() !== cloneDate.getMilliseconds() )  {
+    if (day.getDay() === 1 && newYear.getTime() !== cloneDate.getTime() )  {
         return false;
     } else {
         return true;
