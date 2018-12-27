@@ -23,7 +23,7 @@ title: Maxim Godigna
                     très exigeante au Lycée Français de Caracas, ce qui l'éloigne de son intérêt pour la gastronomie et le plonge dans un univers plus didactique.
                 </p>
                 <p style="text-align: justify;">
-                    Maxim obtient son Bac ES puis intègre une école d'ingénieurs au Venezuela. Il décide ensuite de quitter son pays natal pour rejoindre sa bien aimée et poursuivre ses études à Paris, mais il y découvre une nouvelle carrière.
+                    Maxim obtient son Bac ES puis intègre une école d'ingénieurs au Venezuela. Il décide ensuite de quitter son pays natal pour rejoindre sa compagne et poursuivre ses études à Paris, mais il y découvre une nouvelle carrière.
                 </p>
             </div>
         </div>
@@ -35,8 +35,7 @@ title: Maxim Godigna
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h1 class="text-uppercase">Une nouvelle passion, une nouvelle vie ...... </h1>
                 <p style="text-align: justify;">
-                    Il commence la cuisine à l'école Grégoire Ferrandi et passe plusieurs années au sein de cet établissement prestigieux. Il suit la formation de "Bachelor de cuisine" et passe les CAP de cuisinier, pâtissier et boulanger. Il obtient également un Master
-                    en Gestion gastronomique à l'Université Simon Bolivar de Caracas, ce qui lui permet de se former au management d'un restaurant.
+                    Il commence la cuisine à l'école Grégoire Ferrandi et profite de chaque instant au sein de cet établissement prestigieux. Il y suit la formation de "Bachelor de cuisine" et passe les CAP de cuisinier, pâtissier et boulanger. Il obtient également un Master en Gestion gastronomique à l'Université Simon Bolivar de Caracas, ce qui lui permet de se former au management d'un restaurant.
                 </p>
                 <p style="text-align: justify;">
                     Sa carrière professionnelle débute en tant que commis dans un petit restaurant gastronomique dans le quartier de l'Opéra, mais son talent lui permet de gravir les échelons rapidement pour intégrer les équipes des plus grandes tables de Paris.

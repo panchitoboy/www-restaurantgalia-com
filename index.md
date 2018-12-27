@@ -102,15 +102,14 @@ title: GALIA par Maxim Godigna
                     En 2016, Galia a été classé 16ème meilleur restaurant à moins de 50euros par les fines gueules du Parisien Magazine puis il a été nominé avec 3 autres restaurants Parisiens au prix de la meilleure installation du guide culinaire Lebey.
                 </p>
                 <p>
-                    Engagé à respecter les produits de qualité et participant activement à la promotion et la transmission du patrimoine culinaire français, le chef Godigna a reçu l'appellation de restaurant de qualité du Collège Culinaire de France et attribuée par le plus
-                    grand rassemblement de chefs reconnus dans la planète.
+                    Engagé à respecter les produits de qualité et participant activement à la promotion et la transmission du patrimoine culinaire français, le chef Godigna a reçu l'appellation de restaurant de qualité du Collège Culinaire de France et attribuée par le plus grand rassemblement de chefs.
                 </p>
                 <p>
                     En 2017 le chef devient membre actif de l'association Euro - Toques France et s'engage à défendre les produits sains de qualité. Euro-toques France est la seule association lobbyiste de chefs cuisiniers reconnue officiellement par la commision europénne
                     et elle bénéficie d'une présence permanente à Bruxelles au coeur du système décisionnel européen.
                 </p>
                 <p>
-                    En 2018, le titre de Maitre Restaurateur lui est attribué après les audits de contrôle qui valident ses connaissances en tant que chef cuisinier de métier. Ce titre est le seul titre délivré par l’ Etat pour la restauration française.
+                    En 2018, il reçoit une toque du guide Gastronomique français Gault et Millau et le titre de Maitre Restaurateur lui est également attribué. Ce titre est validé après les audits de contrôle qui valident ses connaissances en tant que chef cuisinier de métier.
                 </p>
             </div>
             <div class="col-md-offset-2 col-sm-3  text-center">
