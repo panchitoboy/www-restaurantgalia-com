@@ -1,5 +1,5 @@
---- 
-layout: default 
+---
+layout: default
 title: GALIA par Maxim Godigna
 ---
 
@@ -112,17 +112,24 @@ title: GALIA par Maxim Godigna
                     En 2018, il reçoit une toque du guide Gastronomique français Gault et Millau et le titre de Maitre Restaurateur lui est également attribué. Ce titre est validé après les audits de contrôle qui valident ses connaissances en tant que chef cuisinier de métier.
                 </p>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-offset-2 col-sm-3  text-center">
                 <img src="images/home/award1.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3">
-                <img src="images/home/award2.png" alt="" class="img-responsive" style="margin:0 auto;">
+                <img src="images/home/award5.jpg" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
             <div class="col-sm-3 text-center">
                 <img src="images/home/award3.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
-            <div class="col-sm-3 text-center">
+        </div>
+        <div class="row">
+            <div class="col-md-offset-3 col-sm-3 text-center">
                 <img src="images/home/award4.jpg" alt="" class="img-responsive" style="margin:0 auto;">
+            </div>
+            <div class="col-sm-3 text-center">
+                <img src="images/home/award2.png" alt="" class="img-responsive" style="margin:0 auto;">
             </div>
         </div>
     </div>
