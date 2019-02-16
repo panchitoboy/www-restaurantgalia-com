@@ -2,12 +2,13 @@ $('.datepicker').datepicker({
     startDate: '0',
     autoclose: true,
     beforeShowDay: function (day) {
-        var newYear = new Date('2018-12-31');
-        var cloneDate = new Date(day.getMilliseconds())
-        newYear.setHours(0, 0, 0, 0);
-        cloneDate.setHours(0, 0, 0, 0);
+        var start = new Date('2019-02-25'); 
+        var end = new Date('2019-03-12'); 
+         if(day > start && end > day){
+             return false;
+         }
 
-        if (day.getDay() === 1 && !(newYear.getMilliseconds() === cloneDate.getMilliseconds() ) ) {
+        if (day.getDay() === 1) {
             return false;
         } else {
             return true;
