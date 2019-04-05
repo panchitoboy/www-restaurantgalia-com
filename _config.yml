@@ -1,12 +1,12 @@
 url: "http://restaurantgalia.com/"
-baseurl: ''
+baseurl: ""
 google_site_verification: 9HSQkZEIOBsYSEsneAYXssNYVzuEiq7poVmS_6mlUm0
 title: Restaurant Galia
 author: Maxim Godigna
-description: > 
-   Diplômé de la haute école de cuisine française Grégoire Ferrandi, 
-   le chef Maxim Godigna est le propriétaire du restaurant Galia, 
-   123 rue Didot dans le 14ème (face au bâtiment de la Croix-Rouge française).
+description: >
+  Diplômé de la haute école de cuisine française Grégoire Ferrandi, 
+  le chef Maxim Godigna est le propriétaire du restaurant Galia, 
+  123 rue Didot dans le 14ème (face au bâtiment de la Croix-Rouge française).
 email: restaurantgalia@hotmail.com
 timezone: Europe/Paris
 lang: fr_FR
@@ -19,6 +19,8 @@ social:
 
 keep_files: []
 exclude:
+  - docker-compose.yml
+  - Dockerfile
   - vendor
   - _app
   - Gemfile
@@ -34,8 +36,10 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  smart_quotes: 'lsquo,rsquo,ldquo,rdquo'
+  smart_quotes: "lsquo,rsquo,ldquo,rdquo"
   enable_coderay: false
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+host: 0.0.0.0
+port: 4000
