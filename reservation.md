@@ -19,7 +19,7 @@ script: reservation.js
                     Nous vous informons que nous acceptons des réservations à partir de 12h et jusqu' à 14h pour le service du midi et à partir de 19h et jusqu' à 22h pour le service du soir. Nous vous rappelons que le restaurant est fermé les dimanches soir et les lundis. Exceptionnellement le restaurant sera ouvert lundi 31 Décembre pour le service du soir.
                 </p>
             </div>
-            <form  name="form" method="POST" action="https://formsubmit.io/send/panchitoboy@gmail.com" class="reservation-form" id="reservation-form">
+            <form  name="form" method="POST" action="https://formspree.io/panchitoboy@gmail.com" class="reservation-form" id="reservation-form">
                 <div class="row">
                     <div class="col-sm-6" id="date_validate">
                     </div>
@@ -100,7 +100,6 @@ script: reservation.js
                         </div>
                     </div>
                 </div>
-                <input name="_formsubmit_id" type="text" style="display:none">
                 <input type="hidden" name="_subject" value="WEB: Nueva reservacion" />
                 <p style="text-align: justify;" id="responseMessage"></p>
                 <input type="submit" id="submitButton" class="btn btn-xl btn-dark btn-block" value="Submit" />
