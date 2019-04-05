@@ -68,7 +68,7 @@ var options = {
         }, {});
 
         $.ajax({
-            url: "http://formspree.io/restaurantgalia@hotmail.com",
+            url: "https://formspree.io/restaurantgalia@hotmail.com",
             method: "POST",
             data: data,
             dataType: "json",
