@@ -19,7 +19,7 @@ script: reservation.js
                     Nous vous informons que nous acceptons des réservations à partir de 12h et jusqu' à 14h pour le service du midi et à partir de 19h et jusqu' à 22h pour le service du soir. Nous vous rappelons que le restaurant est fermé les dimanches soir et les lundis. Exceptionnellement le restaurant sera ouvert lundi 31 Décembre pour le service du soir.
                 </p>
             </div>
-            <form  name="form" method="POST" action="https://formspree.io/panchitoboy@gmail.com" class="reservation-form" id="reservation-form">
+            <form  name="form" method="POST" action="https://formspree.io/restaurantgalia@hotmail.com" class="reservation-form" id="reservation-form">
                 <div class="row">
                     <div class="col-sm-6" id="date_validate">
                     </div>
@@ -27,14 +27,14 @@ script: reservation.js
                     </div>
                 </div>
                 <div class="row">
-                    <!--div class="col-sm-6">
+                    <div class="col-sm-6">
                         <div class="input-group date">
                             <input type="text" class="form-control datepicker" name="date" placeholder="Date" readonly />
                             <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-th"></span>
                             </div>
                         </div>
-                    </div-->
+                    </div>
                     <div class="col-sm-6">
                         <div class="input-group">
                             <input type="text" class="form-control" name="name" placeholder="Nom" />
@@ -54,7 +54,7 @@ script: reservation.js
                         </div>
                     </div>
                 </div>
-                <!--div class="row">
+                <div class="row">
                     <div class="col-sm-6">
                         <div class="input-group">
                             <input type="email" class="form-control" name="email" placeholder="Email" />
@@ -71,7 +71,7 @@ script: reservation.js
                             </div>
                         </div>
                     </div>
-                </div-->
+                </div>
                 <div class="row">
                     <div class="col-sm-6">
                         <div id="quantity_validate">
@@ -82,7 +82,7 @@ script: reservation.js
                         </div>
                     </div>
                 </div>
-                <!--div class="row">
+                <div class="row">
                     <div class="col-sm-6">
                         <div class="input-group">
                             <input type="number" class="form-control" name="quantity" placeholder="Personnes" />
@@ -99,8 +99,8 @@ script: reservation.js
                             </div>
                         </div>
                     </div>
-                </div-->
-                <!--input type="hidden" name="_subject" value="WEB: Nueva reservacion" /-->
+                </div>
+                <input type="hidden" name="_subject" value="WEB: Nueva reservacion" />
                 <p style="text-align: justify;" id="responseMessage"></p>
                 <input type="submit" id="submitButton" class="btn btn-xl btn-dark btn-block" value="Submit" />
             </form>
