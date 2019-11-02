@@ -2,7 +2,7 @@ var feed = new Instafeed({
     get: 'user',
     userId: '2015090677',
     clientId: 'eb59fa72758f495786f0b55f7154053d',
-    accessToken: '2015090677.eb59fa7.cdedfe73582d4480ab1e59959ff996cf',
+    accessToken: '84ce5cafbe8c4b8d9f5619bdefe0de19',
     resolution: 'standard_resolution',
     sortBy: 'most-recent',
     template: '<div photo class="col-xs-6 col-md-3 no-padd"><a class="gallery-box" href="{{link}}" data-lightbox="gallery"><img src="{{image}}" alt="" class="img-responsive" style="max-height: 460px;margin-left:auto;margin-right:auto"><div class="gallery-overlay"><span class="ion-ios-plus-empty"></span></div></a></div>',
