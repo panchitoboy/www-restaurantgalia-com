@@ -217,7 +217,7 @@ gulp.task('clean',
 );
 
 gulp.task('build', function (cb) {
-  runSequence('clean', ['build:scripts', 'build:images', 'build:styles'], 'build:jekyll', cb);
+  runSequence('clean', ['build:scripts', 'build:images', 'build:styles'], cb);
 });
 
 gulp.task('default', ['build']);

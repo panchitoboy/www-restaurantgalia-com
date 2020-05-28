@@ -1,17 +1,9 @@
 version: "3"
 services:
-  site:
-    user: 1000:1000
-    command: jekyll serve
-    image: jekyll/jekyll:latest
-    volumes:
-      - ${PWD}:/srv/jekyll
-      - ${PWD}/vendor/bundle:/usr/local/bundle
-    ports:
-      - 4000:4000
-  build:
+  gulp:
     user: 1000:1000
     image: node-gulp:latest
+    container_name: gulp
     volumes:
-      - ${PWD}:/source
+      - /home/panchitoboy/workspace/www-restaurantgalia-com:/source
     tty: true

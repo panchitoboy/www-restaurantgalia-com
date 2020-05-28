@@ -1,0 +1,33 @@
+# Build docker image for gulp
+
+sudo docker build --pull --rm -f "Dockerfile" -t node-gulp:latest "."
+
+# Run docker image for gulp
+
+sudo docker-compose -f "docker-compose.yml" up -d --build
+
+# Bash in the docker container
+sudo docker exec -it gulp  /bin/bash
+cd source
+npm i
+gulp
+
+
+
+# Install jekyll
+
+sudo apt-get install ruby-full
+sudo apt-get install build-essential dh-autoreconf
+sudo apt install zlibc libxml2-dev libxslt-dev
+sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+
+echo 'export GEM_HOME=~/.ruby/' >> ~/.bashrc
+echo 'export PATH="$PATH:~/.ruby/bin"' >> ~/.bashrc
+source ~/.bashrc
+
+bundle install
+gem install jekyll bundler
+
+bundle install
+bundle update
+bundle exec jekyll -v
