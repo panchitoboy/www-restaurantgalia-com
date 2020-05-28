@@ -29,7 +29,7 @@ title: GALIA par Maxim Godigna
                 <span className="text-color">En savoir plus...</span>
               </h1>
               <div className="space-30"></div>
-              <h1 className="title-1" style="text-transform: unset"><a href="https://www.maximgodigna.com">www.maximgodigna.com</a></h1>
+              <h1 className="title-1" style="text-transform: unset"><a href="https://www.maximgodigna.com">maximgodigna.com</a></h1>
             </div>
             <div class="col-md-6">
                 <img src="images/chef-min.jpg" alt="" class="img-responsive img-rounded">
