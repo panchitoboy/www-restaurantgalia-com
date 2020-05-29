@@ -5,7 +5,7 @@ title: GALIA par Maxim Godigna
 
 <div id="title" class="page-breadcrumb">
     <div class="container text-center">
-        <h1 class="title-1"><span>GALIA par Maxim Godigna</span></h1>
+        <h1 class="title-1"><span style="text-transform:capitalize">Galia Par Maxim Godigna</span></h1>
     </div>
 </div>
 <div class="space-40"></div>
@@ -24,12 +24,9 @@ title: GALIA par Maxim Godigna
                     La cuisine du chef est une fusion franco-sudaméricaine avec une carte qui change toutes les semaines en fonction de son inspiration. Tous les plats sont élaborés sur place à partir de produits bruts de qualité.
                 </blockquote>
                 <img src="images/home/sign.png" alt="">
-              <div class="space-30"></div>
-              <h1 class="title-1">
-                En savoir plus...
-              </h1>
-              <div class="space-30"></div>
-              <h1 class="title-1" style="text-transform: unset"><span><a href="https://www.maximgodigna.com">maximgodigna.com</a></span></h1>
+                <div class="space-30"></div>
+                <a class="btn btn-xl btn-primary" href="https://www.maximgodigna.com/">Découvrir le chef</a>
+                <div class="space-30"></div>
             </div>
             <div class="col-md-6">
                 <img src="images/chef-min.jpg" alt="" class="img-responsive img-rounded">

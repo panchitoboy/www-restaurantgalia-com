@@ -5,7 +5,7 @@ title: Galia
 
 <div class="page-breadcrumb">
     <div class="container text-center">
-        <h1 class="title-1"><span>Galia</span></h1>
+        <h1 class="title-1"><span style="text-transform:capitalize">Galia</span></h1>
     </div>
 </div>
 <div class="space-40"></div>
