@@ -5,7 +5,7 @@ title: Galia
 
 <div class="page-breadcrumb">
     <div class="container text-center">
-        <h1>Galia</h1>
+        <h1 class="title-1"><span>Galia</span></h1>
     </div>
 </div>
 <div class="space-40"></div>
@@ -13,7 +13,7 @@ title: Galia
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <div class="margin-b-40">
-              <h2 className="text-uppercase text-center">Galia c'est la rencontre de deux cultures ...</h2>
+              <h2 class="text-uppercase text-center ">Galia c'est la rencontre de deux cultures ...</h2>
             </div>
         </div>
     </div>

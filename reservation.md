@@ -6,7 +6,7 @@ script: reservation.js
 
 <div class="page-breadcrumb">
     <div class="container text-center">
-        <h1>Réservations</h1>
+        <h1 class="title-1"><span>Réservations</span></h1>
     </div>
 </div>
 <div class="space-40"></div>

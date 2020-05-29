@@ -6,7 +6,7 @@ script: gallery.js
 
 <div class="page-breadcrumb">
     <div class="container text-center">
-        <h1>Galerie</h1>
+        <h1 class="title-1"><span>Galerie</span></h1>
     </div>
 </div>
 <div class="container">
