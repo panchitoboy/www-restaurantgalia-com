@@ -23,7 +23,6 @@ title: GALIA par Maxim Godigna
                 <blockquote>
                     La cuisine du chef est une fusion franco-sudaméricaine avec une carte qui change toutes les semaines en fonction de son inspiration. Tous les plats sont élaborés sur place à partir de produits bruts de qualité.
                 </blockquote>
-                <img src="images/home/sign.png" alt="">
                 <div class="space-30"></div>
                 <a class="btn btn-xl btn-primary" href="https://www.maximgodigna.com/">Découvrir le chef</a>
                 <div class="space-30"></div>
