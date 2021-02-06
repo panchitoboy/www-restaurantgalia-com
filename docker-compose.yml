@@ -5,5 +5,5 @@ services:
     image: node-gulp:latest
     container_name: gulp
     volumes:
-      - /home/panchitoboy/workspace/www-restaurantgalia-com:/source
+      - /home/panchitoboy/personal/www-restaurantgalia-com:/source
     tty: true

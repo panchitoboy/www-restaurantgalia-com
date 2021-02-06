@@ -101,7 +101,7 @@ title: GALIA par Maxim Godigna
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h1 class="text-uppercase">Distinctions</h1>
                 <p>
-                    En 2016, Galia a été classé 16ème meilleur restaurant à moins de 50euros par les fines gueules du Parisien Magazine puis il a été nominé avec 3 autres restaurants Parisiens au prix de la meilleure installation du guide culinaire Lebey.
+                    En 2016, Galia a été classé 16ème meilleur restaurant de Paris puis il a été nominé au prix de la meilleure installation du guide culinaire Lebey.
                 </p>
                 <p>
                     Engagé à respecter les produits de qualité et participant activement à la promotion et la transmission du patrimoine culinaire français, le chef Godigna a reçu l'appellation de restaurant de qualité du Collège Culinaire de France et attribuée par le plus grand rassemblement de chefs.
